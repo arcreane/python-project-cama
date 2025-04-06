@@ -19,7 +19,7 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Mémo - Jeu de mémoire")
 
 # Génération des symboles et du plateau
-symbols = ["★", "☀", "☁", "♠", "♦", "❤", "♫", "✿"] * 2  # 8 paires
+symbols = ["\u2605", "\u2600", "\u2601", "\u2660", "\u2666", "\u2764", "\u266B", "\u273F"] * 2 # 8 paires
 random.shuffle(symbols)
 grid = [symbols[i * GRID_SIZE:(i + 1) * GRID_SIZE] for i in range(GRID_SIZE)]
 revealed = [[False] * GRID_SIZE for _ in range(GRID_SIZE)]
