@@ -79,8 +79,7 @@ while running:
     if maze[new_pos[0]][new_pos[1]] != 1:
         player_pos = new_pos
 
-    # Portails
-    if maze[new_pos[0]]
+
 
     # Arrivée
     if maze[player_pos[0]][player_pos[1]] == 2:
